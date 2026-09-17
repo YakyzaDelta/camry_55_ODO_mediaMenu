@@ -14,13 +14,13 @@ Most owners of US-spec Toyota Camry XV50 models notice that the instrument clust
 2. **Alerts / Notifications**
 3. **Settings**
 
-![Standard 3-tab Instrument Cluster Screen](photo1.jpg)
+![Standard 3-tab Instrument Cluster Screen](/images/photo1.jpg)
 
 However, after retrofitting an original Toyota OEM 7-inch touchscreen head unit and connecting two additional CAN bus wires (which were missing in the base trim package)—specifically connecting **Pin 18 (MSCH)** on the instrument cluster to **Pin 3 (CNH1)** on the 24-pin radio connector, and **Pin 19 (MSCL)** to **Pin 4 (CNL1)**—two additional menus appeared instantly upon powering up:
 - **Navigation** (compass display)
 - **Multimedia** (photo 2)
 
-![Instrument Cluster with activated Media & Navigation Tabs](photo2.jpg)
+![Instrument Cluster with activated Media & Navigation Tabs](/images/photo2.jpg)
 
 The multimedia tab allowed controlling audio directly from the steering wheel buttons, switching sources (CD, Radio, USB, Bluetooth), and displaying real-time track info, artist name, and album titles.
 
@@ -38,7 +38,7 @@ After upgrading to an aftermarket Android head unit, these extra menu tabs disap
 2. **Combined Sniffing:**
    - Connected the OEM radio and the instrument cluster together on a test bench while sniffing the total CAN traffic.
 
-![Test bench setup for sniffing CAN bus traffic between Cluster and OEM Head Unit](photo2_setup.jpg)
+![Test bench setup for sniffing CAN bus traffic between Cluster and OEM Head Unit](/images/photo2_setup.jpg)
 
 ---
 
@@ -69,7 +69,7 @@ By emulating these specific CAN responses using an **ESP32 + MCP2515**, the clus
 - [ ] **Android Head Unit Integration:** Connect ESP32 via Bluetooth / Serial / Android App to stream track metadata (Title, Artist, Album) directly from Android audio apps to the cluster screen.
 - [ ] **Navigation Turn-by-Turn Display:** Reverse-engineer the Navigation tab to output direction arrows (supported natively by the cluster display) fed by Google Maps / Waze navigation prompts (photo 3).
 
-![Example concept for Navigation Turn-by-Turn display on Cluster](photo3.jpg)
+![Example concept for Navigation Turn-by-Turn display on Cluster](/images/photo3.jpg)
 
 ---
 
@@ -84,7 +84,7 @@ By emulating these specific CAN responses using an **ESP32 + MCP2515**, the clus
 
 ## 📚 Connections
 
-![esp32_connection](images/image4.jpg)
+![esp32_connection](/images/image4.jpg)
 
 ---
 
